@@ -1,6 +1,7 @@
 import {
   AuthSignIn,
   NetworkVisualization,
+  NodesList,
   Summary,
   ZonesDetail,
   ZonesEvents,
@@ -48,6 +49,10 @@ export const routes = createBrowserRouter([
           {
             path: '/network/visualization',
             element: <NetworkVisualization />,
+          },
+          {
+            path: '/nodes',
+            element: <NodesList />,
           },
         ],
       },
