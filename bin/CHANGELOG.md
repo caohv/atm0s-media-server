@@ -7,6 +7,30 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0-alpha.7](https://github.com/8xFF/atm0s-media-server/compare/v0.2.0-alpha.6...v0.2.0-alpha.7) - 2025-03-02
+
+### Fixed
+
+- vnet should stick on same worker for avoiding actor missmatch error ([#519](https://github.com/8xFF/atm0s-media-server/pull/519))
+
+## [0.2.0-alpha.6](https://github.com/8xFF/atm0s-media-server/compare/v0.2.0-alpha.5...v0.2.0-alpha.6) - 2025-03-02
+
+### Fixed
+
+- wrong worker setting cause cross nodes stream subscribe failed ([#517](https://github.com/8xFF/atm0s-media-server/pull/517))
+
+### Other
+
+- update Cargo.lock dependencies
+- migrate to tailwindcss v4, update layout, router ([#514](https://github.com/8xFF/atm0s-media-server/pull/514))
+
+## [0.2.0-alpha.5](https://github.com/8xFF/atm0s-media-server/compare/v0.2.0-alpha.4...v0.2.0-alpha.5) - 2025-02-27
+
+### Other
+
+- update atm0s-sdn for fixing network unstable issue (#513)
+- update Cargo.lock dependencies
+
 ## [0.2.0-alpha.4](https://github.com/8xFF/atm0s-media-server/compare/v0.2.0-alpha.3...v0.2.0-alpha.4) - 2025-02-26
 
 ### Added
