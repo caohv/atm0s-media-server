@@ -93,7 +93,7 @@ export const NodesList = () => {
               ) : (
                 <TableRow>
                   <TableCell colSpan={6} className="text-center">
-                    <span className="text-muted-foreground">No rooms found</span>
+                    <span className="text-muted-foreground">No nodes found</span>
                   </TableCell>
                 </TableRow>
               )}

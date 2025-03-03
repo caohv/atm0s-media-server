@@ -19,6 +19,9 @@ export const useNetworkVisualization = (cb?: NetworkEventCallback, url?: string)
     wsClient.onmessage = (message) => {
       try {
         const object = JSON.parse(message.data)
+        console.log('--------------------------------------------------------')
+        console.log('object', object)
+        console.log('--------------------------------------------------------')
         const event = networkEventSchema.parse(object)
         if (cb) {
           cb(event)

@@ -59,9 +59,9 @@ export class NetworkVisualizationGraph {
           selector: 'edge',
           style: {
             width: 2,
-            color: '#fff',
-            'line-color': '#fff',
-            'target-arrow-color': '#fff',
+            color: '#000',
+            'line-color': '#000',
+            'target-arrow-color': '#000',
             'target-arrow-shape': 'triangle',
             'curve-style': 'bezier',
             'control-point-step-size': 40,
